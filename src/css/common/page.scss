@@ -1,0 +1,37 @@
+.page {
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 0.8rem;
+  .page_num {
+    border: none;
+    text-align: center;
+    width: 5rem;
+    font-size: 1rem;
+    color: #9B9B9B;
+    height: 2rem;
+    line-height: 2rem;
+    background: #E2E2EA;
+    border-radius: 4px;
+    outline: none;
+  }
+  div {
+    height: 2rem;
+    color: #A9A9A9;
+  }
+  .triangle.left {
+    margin-right: 1rem;
+    width: 0;
+    height: 0;
+    border-top: 0.4rem solid transparent;
+    border-right: 0.5rem solid #A9A9A9;
+    border-bottom: 0.4rem solid transparent
+  }
+  .triangle.right {
+    margin-left: 1rem;
+    width: 0;
+    height: 0;
+    border-top: 0.4rem solid transparent;
+    border-left: 0.5rem solid #A9A9A9;
+    border-bottom: 0.4rem solid transparent;
+  }
+}

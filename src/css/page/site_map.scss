@@ -1,0 +1,48 @@
+.section1,.section2{
+    width:100%;
+    background:#fff;
+    nav{
+        padding:36px 24px 18px 24px;
+        span{
+            font-family: PingFangSC-Light;
+            font-size: 18px;
+            color: #FF7B7B;
+            letter-spacing: 0px;
+            display:block;
+            text-indent:2rem;
+        }
+        ul{
+            overflow:hidden;
+            width:100%;
+            padding:18px 0 0 0;
+            li{
+                width:25%;
+                float:left;
+                font-family: PingFangSC-Light;
+                font-size: 13px;
+                color: #383838;
+                letter-spacing: 0px;
+                line-height: 14px;
+                padding:10px 0;
+                margin:5px 0;
+            }
+        }
+    }
+}
+
+.section1 nav span.channel_icon{
+  background:url(../../img/allchannel.png) 0 center no-repeat;
+  background-size:18px 18px;
+}
+.section2 nav span.news_icon{
+  background:url(../../img/news.png) 0 center no-repeat;
+  background-size:18px 18px;
+}
+.section2 nav span.videos_icon{
+  background:url(../../img/videoicon.png) 0 center no-repeat;
+  background-size:18px 18px;
+}
+.section2{
+  margin:10px 0 1px;
+  overflow:hidden;
+}

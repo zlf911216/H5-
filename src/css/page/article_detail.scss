@@ -1,0 +1,150 @@
+.article_msg{
+    background:#fff;
+   .title{
+        padding:6% 4%;
+        font-size: 1.3rem;
+        color: #383838;
+        letter-spacing: 0;
+        text-align:center;
+    }
+    .title-logo{
+        background-image: url(../../img/details_hr.png);
+        background-repeat:no-repeat;
+        background-size:100% auto;
+        width: 80%;
+        height:10px;
+        margin:0 auto 1rem;
+    }
+    .time-num{
+        padding:0 4%;
+        font-size:0.8rem;
+        color:#999;
+        span{
+            margin-right:0.3rem;
+        }
+    }
+    .msg{
+        margin-top:2%;
+        padding:1% 4%;
+        img{
+            margin:0.25rem 0;
+            display:block;
+            width:100%;
+        }
+    }
+    .tags{
+        margin-top:1rem;
+        padding:0 4%;
+        a{  
+            margin-right:2%;
+            margin-bottom:2%;
+            float:left;
+            background: #ff7b7b;
+            height:1.4rem;
+            padding:0 0.4rem;
+            border-radius:0.85rem;
+            img{
+                display:block;
+                width:20px;
+            }
+            span{
+                font-size:0.9rem;
+                color:#fff;
+            }
+        }
+    } 
+}
+.seller_msg{
+    padding:0 5%;
+    background:#fff;
+    .business-box {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px dashed #E0E0E0;
+        &:last-child {
+          border-bottom: none;
+        }
+        .business-icon {
+          width: 13.3%;
+          height: auto;
+          border-radius: 4px;
+          img {
+            display: block;
+            width: 100%;
+          }
+        }
+        .business-msg {
+            padding: 0 5%;
+            .name {
+                color: #191919;
+                letter-spacing: 0px;
+                font-weight: bold;
+            }
+            .address {
+                margin-top: 0.2rem;
+                font-size: 0.6rem;
+                color: #999999;
+                letter-spacing: 0px;
+            }
+        }
+        .business-tel {
+            width: 8%;
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }   
+}
+.relevant{
+    padding:0 5% 0.5rem;
+    background:#fff;
+    &>a{
+        margin-top:0.5rem;
+        .img-box{
+            width:30%;
+            height:0;
+            padding-bottom:20%;
+            img{
+                display:block;
+                width:100%;
+            }
+        }
+        @-moz-document url-prefix(){
+            .img-box{
+                height:auto;
+            }
+        }
+        .msg-box{
+            padding:0 5%;
+            .explain{
+                font-size:0.8rem;
+                line-height: 1rem;
+                height: 2rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                display: box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-break: break-word; 
+                font-weight: normal; 
+            }
+            .time{
+                color: #999;
+                font-size:0.75rem;  
+            }
+        }
+    }
+    .title{
+        margin:1rem 0;
+        img{
+            width:1.3rem;
+            margin-right:0.2rem;
+        }
+        h2{
+            font-weight:normal;
+            font-size:1rem;
+        }
+    }
+}

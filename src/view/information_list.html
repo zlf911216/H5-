@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>梦婚礼-资讯列表页</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="描述" />
+    <meta name="Keywords" content="关键字" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+</head>
+<body flex="dir:top">
+    <header class="head" flex="dir:left main:justify cross:center" flex-box="0">
+        <div class="logo-box" flex-box="0">
+            <img src="../img/logo.png" alt="梦婚礼logo">
+        </div>
+        <div id="downloadapp" class="download-box" flex-box="0">
+            <img src="../img/download.png" alt="下载app">
+        </div>
+    </header>
+    <section class="first-nav" flex="dir:left box:mean cross:center" flex-box="0">
+        <h1><a href="#">精选</a></h1>
+        <h1><a href="#">咨讯</a></h1>
+        <h1 class="choose"><a href="#">视频</a></h1>
+        <h1><a href="#">挑婚纱</a></h1>     
+    </section>
+    <section class="second-nav" flex="dir:left box:mean cross:center" flex-box="0">
+        <h1 class="choose"><a href="#">婚礼策划</a></h1>
+        <h1><a href="#">婚纱摄影</a></h1>
+        <h1><a href="#">婚纱礼服</a></h1>
+        <h1><a href="#">珠宝首饰</a></h1>     
+    </section>
+    <section class='msg-list-box' flex-box="1">
+        <div class="msg-list" flex="dir:left">
+            <a href="" class="img-box" flex-box="0">
+                <img src="http://oss-image.menghunli.com/2017-03/1488763381030_%E5%B0%81%E9%9D%A2.png@!300x200" alt="">
+            </a>
+            <div class="word-box" flex="dir:top" flex-box="1">
+                <a class="word" href="" flex-box="1">
+                    <p>小清新户外婚礼 | 地震分不开的，谁也别想拆散</p>
+                </a>
+                <a class="tag_time" flex-box="0" flex="dir:left">
+                    <span>户外婚礼</span>
+                    <span>03/06</span>
+                </a>
+            </div>
+        </div>   
+    </section>
+    <section class="page" flex="dir:left box:mean cross:center"  flex-box="0">
+        <div flex-box="1" flex="dir:left cross:center main:center" class="prev" onclick="prev()">
+            <span class="triangle left"></span>
+            <span>上一页</span>
+        </div>
+        <input type="tel" flex-box="0" class="page_num" placeholder="1/2" onblur="changepage()">
+        <div flex-box="1" flex="dir:left cross:center main:center" class="next" onclick="next()">
+            <span>下一页</span>
+            <span class="triangle right"></span>
+        </div>
+    </section>
+    <footer class="foot" flex="dir:top cross:center main:justify" flex-box="0">
+        <section class="foot_nav" flex="dir:left main:center cross:center">
+            <a href="">触屏版</a>
+            <span>|</span>
+            <p id="download">客户端</p>
+            <span>|</span>
+            <a href="">站点地图</a>
+        </section>
+        <p>梦婚礼 menghunli.com版权所有</p>
+        <p>京ICP备15053624号-2</p>
+    </footer>
+</body>
+</html>

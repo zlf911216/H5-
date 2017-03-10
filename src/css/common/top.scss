@@ -1,0 +1,107 @@
+.head{
+	height:2.7rem;
+	padding:0 3%;
+    background: #FF7B7B;
+    .logo-box{
+    	height:63%;
+    	img{
+    		display:block;
+    		height:100%;
+    	}
+    }
+    .download-box{
+    	height:50%;
+    	img{
+    		display:block;
+    		height:100%;
+    	}
+    }
+    .back-box{
+        color:#fff;
+        font-size:0.9rem;
+        img{
+            margin-right:0.45rem;
+            display:block;
+            width:10px;
+        }
+    }
+    .list-box{
+        font-size:0.7rem;
+        h1{
+            font-weight:normal;
+            margin-left:0.8rem;
+            color:#fff;
+        }
+    }
+    .title{
+        color:#fff;
+        font-size:0.9rem;
+    }
+    .nav{
+        color:#fff;
+        font-size:0.9rem;
+        img{
+            margin-right:0.45rem;
+            display:block;
+            width:10px;
+        }
+    }
+}
+.nav-choose{
+    z-index: 6000;
+    position: fixed;
+    top: 2.7rem;
+    right: 0;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    border-radius:6px;
+    width: 60%;
+    overflow: auto;
+    background: #fff;
+    ul{
+        li{
+            font-size:0.7rem;
+            color: #000;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            height:2.7rem;
+            line-height:2.7rem;
+        }
+    }
+}
+.head-fixed{
+    position:fixed;
+    width:94%;
+    top:0;
+    left:0;
+    z-index: 5000;
+}
+.head-black{
+    background: rgba(0,0,0,.7);
+}
+.hidden{
+    visibility: hidden;
+}
+.shandow{
+    z-index: 5999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.32);
+}
+.open {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+}
+
+.close{
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    -webkit-transition: -webkit-transform 400ms;
+    transition: transform 400ms;
+}

@@ -1,0 +1,16 @@
+.foot{
+	margin-top:0.5rem;
+	font-size:0.7rem;
+	color:#b6b6b6;
+	height:5rem;
+	background:#fff;
+	.foot_nav{
+		margin-top:0.5rem;
+		span{
+			margin:0 4px;
+		}
+	}
+	p:last-child{
+		margin-bottom:0.5rem;
+	}
+}

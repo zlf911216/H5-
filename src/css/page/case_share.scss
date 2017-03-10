@@ -1,0 +1,253 @@
+*{margin: 0;padding: 0;}
+body{
+    background: #fff;
+    h2{
+        text-align: center;
+        font:24px PingFangSC-Thin;
+        color:#AEA39C;
+    }
+}
+.top_img{
+    width: 100%;    
+    height:0;
+    padding:0 0 70% 0;
+    img{
+        width:100%;
+        display:block;
+    }
+}
+.top_title{
+    width:90%;
+    margin:0 auto;
+    .title{
+        width:100%;
+        margin:20px auto;
+        text-align: center;
+        font:24px/34px FZS3JW--GB1-0;
+        color:#383838;
+        letter-spacing: 0px;
+    }
+    p.case_info{
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        font:12px PingFangSC-Light;
+        color: #9B9B9B;
+        margin:0 auto;
+    }
+    p.case_desc{
+        width:100%;
+        color:#383838;
+        font:14px/26px PingFangSC-Thin;
+        text-align:center;
+        margin:80px auto 0;
+    }
+}
+.content{
+    width:90%;    
+    margin:0 auto;
+    .moudles_intr{
+        margin:60px auto 0;
+        h2{
+            width:100%;
+            text-align: center;
+            font:16px;
+            color:#2B3443;
+            font-weight:bold;                
+        }
+        h2:before{
+            content:'. ';
+            vertical-align: super;
+        }
+        h2:after{
+            content:' .';
+            vertical-align: super;
+        }
+        p{
+            width:100%;
+            text-align: left;
+            color:#383838;
+            font:14px/26px PingFangSC-Thin;
+            margin:30px auto 0;
+            img{
+                width:100%;
+                display:block;
+            }
+            span{
+                display:block;
+                width:100%;
+                height:250px;
+            }
+        }
+    }
+    .tag{
+        width:100%;
+        margin:60px auto 0;
+        span{
+            text-align: center;
+            padding:7px 21px;
+            background:#ECEFF2;
+            border-radius: 4px;
+            font-size:12px;
+            color:#9B9B9B;
+            display:inline-block;
+            margin:3px 15px 0 0
+        }
+    }
+    .moudles_info{
+        width:100%;
+        margin:30px auto 0;
+        /* h2{
+            text-align: center;
+            font:24px PingFangSC-Thin;
+            color:#AEA39C;
+        } */
+        p{
+            margin:40px auto 0;
+            text-align: left;
+            font:14px/26px PingFangSC-Thin;
+            color:#383838;
+            img{
+                width:100%;
+                display:block;
+            }
+        }
+    }
+    .wedding_info{
+        width:100%;
+        margin:60px auto 0;
+        /* h2{
+            text-align: center;
+            font:24px PingFangSC-Thin;
+            color:#AEA39C;
+        } */
+        ul{
+            margin:40px auto 0;
+        }
+        ul>li{
+            text-align: center;
+            img{
+                display:block;
+                width:15px;
+                height:15px;
+                margin:10px auto;
+            }
+        }
+    }
+    .wedding_cost{
+        width:100%;
+        margin:60px auto 0;
+        ul{
+            margin:40px auto 0;
+            li{
+                width:100%;
+                padding:25px 0 3px;
+                border-bottom: 1px solid #ECEFF2;
+                div:first-child{
+                    span{
+                        display:block;
+                        text-align: left;
+                        font-family: PingFangSC-Thin;
+                    }
+                    span:first-child{
+                        font-size:18px;
+                        color:#383838;
+                    }
+                    span:last-child{
+                        font-size:14px;
+                        color:#9B9B9B;
+                    }
+                }
+                div:last-child{
+                    p{
+                        color:#FB916C;
+                        font-size:13px;
+                        margin:0 10px 0 0;
+                    }
+                    p.no_data{
+                        color:#BCBCBC;
+                    }
+                    img{
+                        display:block;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .comments{
+        width:100%;
+        padding:0 0 80px 0;
+        .user_comment{
+            width:100%;
+            margin:60px auto 0;
+            img.user_head{
+                display:block;
+                width: 40px;
+                height: 40px;
+                margin:42px auto 0;
+                border-radius: 50px;
+            }
+            span.user_name{
+                display:block;
+                margin:20px auto 0;
+                font-size:12px;
+                color:#383838;
+                text-align: center;
+            }
+            p{
+                margin:40px auto 0;
+                font: 14px/26px normal;
+                color:#383838;
+                overflow: hidden;
+                img{
+                    display:block;
+                    width:23%;
+                    margin:0 2% 0 0;
+                    float: left;
+                }
+            }
+        }
+    }
+}
+.app_down{
+    position: fixed;
+    width:90%;
+    padding:0 5%;
+    bottom:0;
+    background:#ffffff;
+    height:3rem;
+    box-shadow:0px 0px 5px #ECEFF2;
+    .img-box{
+        height:2rem;
+        img{
+            display:block;
+            height:100%;
+            width:auto;
+        }
+    }
+    .download-box{
+        span{
+            display:inline-block;
+            height:1.6rem;
+            line-height:1.6rem;
+            width:4.8rem;
+            font-size:0.8rem;
+            text-align:center;
+            background: #FB916C;
+            border-radius: 18px;
+            color: #FFFFFF;
+            letter-spacing: 0px;
+        }
+    }
+    .close-box{
+        margin-left:0.75rem;
+        height:2.5rem;
+        width:1rem;
+        img{
+            display:block;
+            width:100%;
+        }
+    }
+}

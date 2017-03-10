@@ -1,0 +1,51 @@
+.msg-list{
+    margin-top:0.25rem;
+    background:#fff;
+    .img-box{
+        position:relative;
+        width:39%;
+        height:0;
+        padding-bottom:26%;
+        img{
+            display:block;
+            width:100%;
+        }
+        .time{
+            position:absolute;
+            color: #fff;
+            bottom: 9%;
+            right: 2%;
+            font-size:0.8rem;
+        }
+    }
+    @-moz-document url-prefix(){
+        .img-box{
+            height:auto;
+        }
+    }
+    .word-box{
+        font-size:0.8rem;
+        .word{
+            padding:5% 4% 0;
+            p{
+                line-height: 1rem;
+                height: 2rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                display: box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-break: break-word;
+            }
+        }
+        .tag_time{
+            font-size:0.75rem;
+            padding:0 4% 5%;
+            color:#999;
+            span{
+                margin-right:2%;
+            }
+        }
+    }
+}

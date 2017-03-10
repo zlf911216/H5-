@@ -1,0 +1,75 @@
+#tixing,#tuowei,#luokuo{
+    margin-top:8%;
+}
+.explain-title {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-left: 3px solid #FF6161;
+    border-right: 3px solid #FF6161;
+}
+.explain {
+    margin-top: 8%;
+    padding: 0 5%;
+    font-size: 1rem;
+    color: #9B9B9B;
+    letter-spacing: 0px;
+    line-height: 1.75rem;
+}
+.img-box {
+    padding-bottom: 8%;
+    width: 90%;
+    margin: 5% auto 0;
+    border-bottom: 1px dashed #BCBCBC;
+    img {
+        display: block;
+        width: 100%;
+    }
+    &.last {
+        border-bottom: none;
+    }
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FF7B7B;
+    z-index: 5000;
+    overflow: visible;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    line-height: 2.4rem;
+    .side {
+        width: 5rem;
+        .icon-box{
+            width: 12px;
+            margin-right:5px;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .back{
+        margin-left: 32%;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-left: 2px solid #fff;
+        border-top: 2px solid #fff;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    .page-num {
+        text-align: center;
+    }
+}
+.nav{
+    height: 2.4rem;
+}
+.go-back img{
+    margin-left: 15px;
+    height:0.9rem;
+    width: auto;
+    display: block;
+}
